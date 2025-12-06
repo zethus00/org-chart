@@ -131,11 +131,11 @@
         .badge {
             display: inline-block;
             padding: 6px 12px;
-            background: rgba(6,182,212,0.1);
-            border: 1px solid rgba(6,182,212,0.2);
+            background: rgba(14,165,233,0.1);
+            border: 1px solid rgba(14,165,233,0.2);
             border-radius: 20px;
             font-size: 11px;
-            color: var(--accent);
+            color: #0284c7;
             margin-top: 12px;
             font-weight: 500;
         }
@@ -149,8 +149,8 @@
         }
         
         .department {
-            background: linear-gradient(180deg, rgba(255,255,255,0.03), rgba(255,255,255,0.01));
-            border: 1px solid rgba(255,255,255,0.05);
+            background: #ffffff;
+            border: 1px solid #e2e8f0;
             border-radius: var(--radius);
             padding: 24px;
             box-shadow: var(--shadow);
@@ -179,22 +179,22 @@
             align-items: flex-start;
             margin-bottom: 16px;
             padding: 12px;
-            background: rgba(255,255,255,0.02);
+            background: #f8fafc;
             border-radius: 8px;
-            border: 1px solid rgba(255,255,255,0.02);
+            border: 1px solid #e2e8f0;
         }
         
         .member-icon {
             width: 44px;
             height: 44px;
             border-radius: 8px;
-            background: var(--glass);
+            background: #f1f5f9;
             display: flex;
             align-items: center;
             justify-content: center;
             font-weight: 700;
             font-size: 14px;
-            border: 1px solid rgba(255,255,255,0.03);
+            border: 1px solid #e2e8f0;
             flex-shrink: 0;
             overflow: hidden;
         }
@@ -237,9 +237,9 @@
         }
         
         .status.current {
-            background: rgba(6,182,212,0.15);
-            color: var(--accent);
-            border: 1px solid rgba(6,182,212,0.2);
+            background: rgba(14,165,233,0.1);
+            color: #0284c7;
+            border: 1px solid rgba(14,165,233,0.2);
         }
         
         .status.hiring {
@@ -257,8 +257,8 @@
         .department-note {
             margin-top: 16px;
             padding: 12px;
-            background: rgba(6,182,212,0.05);
-            border-left: 3px solid var(--accent);
+            background: rgba(14,165,233,0.05);
+            border-left: 3px solid #0ea5e9;
             border-radius: 4px;
             font-size: 12px;
             color: var(--muted);
@@ -267,8 +267,8 @@
         
         /* Advisory Team */
         .advisory-section {
-            background: linear-gradient(180deg, rgba(251,146,60,0.03), rgba(251,146,60,0.01));
-            border: 1px solid rgba(251,146,60,0.1);
+            background: #ffffff;
+            border: 1px solid #fed7aa;
             border-radius: var(--radius);
             padding: 24px;
             box-shadow: var(--shadow);
@@ -285,21 +285,21 @@
             display: flex;
             gap: 12px;
             padding: 14px;
-            background: rgba(255,255,255,0.02);
+            background: #fffbeb;
             border-radius: 8px;
-            border: 1px solid rgba(251,146,60,0.15);
+            border: 1px solid #fed7aa;
         }
         
         .advisor-icon {
             width: 48px;
             height: 48px;
             border-radius: 8px;
-            background: linear-gradient(135deg, rgba(251,146,60,0.2), rgba(251,146,60,0.1));
+            background: linear-gradient(135deg, #fed7aa, #fef3c7);
             display: flex;
             align-items: center;
             justify-content: center;
             font-weight: 700;
-            border: 1px solid rgba(251,146,60,0.2);
+            border: 1px solid #fed7aa;
             flex-shrink: 0;
             overflow: hidden;
         }
@@ -323,7 +323,7 @@
         
         .advisor-info .company {
             font-size: 11px;
-            color: rgba(251,146,60,0.8);
+            color: #d97706;
             margin-top: 2px;
         }
         
@@ -336,8 +336,8 @@
         }
         
         .hiring-card {
-            background: linear-gradient(180deg, rgba(34,197,94,0.05), rgba(34,197,94,0.02));
-            border: 1px solid rgba(34,197,94,0.15);
+            background: #f0fdf4;
+            border: 1px solid #bbf7d0;
             border-radius: var(--radius);
             padding: 20px;
         }
@@ -547,15 +547,6 @@
                         </div>
                     </div>
                     
-                    <div class="team-member">
-                        <div class="member-icon hiring">+</div>
-                        <div class="member-info">
-                            <div class="name">Hardware Designer Intern</div>
-                            <div class="role">Additional design bandwidth for subsystems, fixtures, and manufacturing tooling development.</div>
-                            <span class="status hiring">Hiring - Near-term</span>
-                        </div>
-                    </div>
-                    
                     <div class="department-note">
                         <strong>Design Philosophy:</strong> Iterative design cycles with rapid prototyping. Focus on manufacturability, reliability, and field serviceability for hospital environments.
                     </div>
@@ -626,24 +617,6 @@
                     </div>
                     
                     <div class="team-member">
-                        <div class="member-icon">FT1</div>
-                        <div class="member-info">
-                            <div class="name">Field Technician I</div>
-                            <div class="role">Primary field support - monitors deployment operations, provides remote assistance, troubleshooting, and coordinates maintenance activities.</div>
-                            <span class="status current">Current Team</span>
-                        </div>
-                    </div>
-                    
-                    <div class="team-member">
-                        <div class="member-icon">FT2</div>
-                        <div class="member-info">
-                            <div class="name">Field Technician II</div>
-                            <div class="role">Secondary field support - backup monitoring, teleoperation coverage, system diagnostics, and customer technical support.</div>
-                            <span class="status current">Current Team</span>
-                        </div>
-                    </div>
-                    
-                    <div class="team-member">
                         <div class="member-icon">A1</div>
                         <div class="member-info">
                             <div class="name">Assembly Techs (Deployment Support)</div>
@@ -700,6 +673,15 @@
                         </div>
                     </div>
                     
+                    <div class="team-member">
+                        <div class="member-icon hiring">+</div>
+                        <div class="member-info">
+                            <div class="name">Business Development Manager</div>
+                            <div class="role">Hospital partnerships, customer acquisition, market expansion, and revenue growth strategies.</div>
+                            <span class="status hiring">Hiring - Near-term | India</span>
+                        </div>
+                    </div>
+                    
                     <div class="department-note">
                         <strong>Financial Structure:</strong> Fractional/part-time resources provide cost-effective expertise during early stage. Transition to full-time CFO as company scales post-Series A.
                     </div>
@@ -727,15 +709,6 @@
                             <div class="name">Electronics & Embedded Engineer (2 positions)</div>
                             <div class="role">Custom PCB design, sensor integration, embedded firmware, and hardware optimization for cost and performance.</div>
                             <span class="status hiring">Future Hire | USA</span>
-                        </div>
-                    </div>
-                    
-                    <div class="team-member">
-                        <div class="member-icon hiring">+</div>
-                        <div class="member-info">
-                            <div class="name">Business Development Manager</div>
-                            <div class="role">Hospital partnerships, customer acquisition, market expansion, and revenue growth strategies.</div>
-                            <span class="status hiring">Hiring - Near-term | India</span>
                         </div>
                     </div>
                     
